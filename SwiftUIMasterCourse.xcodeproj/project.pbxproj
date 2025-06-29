@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B9DA6B5E2E1197F700B2BDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B5B2E1197F700B2BDD0 /* ContentView.swift */; };
+		B9DA6B5F2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */; };
+		B9DA6B602E1197F700B2BDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */; };
+		B9DA6B632E11981800B2BDD0 /* ViewModifierFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B9DA6B4C2E11971E00B2BDD0 /* SwiftUIMasterCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMasterCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9DA6B5B2E1197F700B2BDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasterCourseApp.swift; sourceTree = "<group>"; };
+		B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B9DA6B4E2E11971E00B2BDD0 /* SwiftUIMasterCourse */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIMasterCourse;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B9DA6B492E11971E00B2BDD0 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		B9DA6B432E11971E00B2BDD0 = {
 			isa = PBXGroup;
 			children = (
-				B9DA6B4E2E11971E00B2BDD0 /* SwiftUIMasterCourse */,
+				B9DA6B5D2E1197F700B2BDD0 /* SwiftUIMasterCourse */,
 				B9DA6B4D2E11971E00B2BDD0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				B9DA6B4C2E11971E00B2BDD0 /* SwiftUIMasterCourse.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B9DA6B5D2E1197F700B2BDD0 /* SwiftUIMasterCourse */ = {
+			isa = PBXGroup;
+			children = (
+				B9DA6B612E1197F900B2BDD0 /* ViewModifier */,
+				B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */,
+				B9DA6B5B2E1197F700B2BDD0 /* ContentView.swift */,
+				B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */,
+			);
+			path = SwiftUIMasterCourse;
+			sourceTree = "<group>";
+		};
+		B9DA6B612E1197F900B2BDD0 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */,
+			);
+			path = ViewModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B9DA6B4E2E11971E00B2BDD0 /* SwiftUIMasterCourse */,
 			);
 			name = SwiftUIMasterCourse;
 			packageProductDependencies = (
@@ -109,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DA6B602E1197F700B2BDD0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DA6B5E2E1197F700B2BDD0 /* ContentView.swift in Sources */,
+				B9DA6B632E11981800B2BDD0 /* ViewModifierFile.swift in Sources */,
+				B9DA6B5F2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
