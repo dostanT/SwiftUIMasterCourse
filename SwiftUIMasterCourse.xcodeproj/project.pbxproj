@@ -11,6 +11,7 @@
 		B94FA0522E124E3C00C1CC68 /* CustomAnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FA0512E124E3300C1CC68 /* CustomAnyTransition.swift */; };
 		B94FA0542E1260EA00C1CC68 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FA0532E1260DB00C1CC68 /* MatchedGeometryEffect.swift */; };
 		B96F66E22E12FC3F00452FE6 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F66E12E12FC3400452FE6 /* CustomShape.swift */; };
+		B96F66E42E13000700452FE6 /* CustomCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F66E32E12FFD500452FE6 /* CustomCurves.swift */; };
 		B9DA6B5E2E1197F700B2BDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B5B2E1197F700B2BDD0 /* ContentView.swift */; };
 		B9DA6B5F2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */; };
 		B9DA6B602E1197F700B2BDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		B94FA0512E124E3300C1CC68 /* CustomAnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnyTransition.swift; sourceTree = "<group>"; };
 		B94FA0532E1260DB00C1CC68 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		B96F66E12E12FC3400452FE6 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		B96F66E32E12FFD500452FE6 /* CustomCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurves.swift; sourceTree = "<group>"; };
 		B9DA6B4C2E11971E00B2BDD0 /* SwiftUIMasterCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMasterCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DA6B5B2E1197F700B2BDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		B9DA6B5D2E1197F700B2BDD0 /* SwiftUIMasterCourse */ = {
 			isa = PBXGroup;
 			children = (
+				B96F66E32E12FFD500452FE6 /* CustomCurves.swift */,
 				B96F66E12E12FC3400452FE6 /* CustomShape.swift */,
 				B94FA0532E1260DB00C1CC68 /* MatchedGeometryEffect.swift */,
 				B94FA0512E124E3300C1CC68 /* CustomAnyTransition.swift */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96F66E42E13000700452FE6 /* CustomCurves.swift in Sources */,
 				B9DA6B5E2E1197F700B2BDD0 /* ContentView.swift in Sources */,
 				B94FA0502E124B3100C1CC68 /* ButtonStyle.swift in Sources */,
 				B9DA6B632E11981800B2BDD0 /* ViewModifierFile.swift in Sources */,
