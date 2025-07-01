@@ -16,6 +16,7 @@
 		B9DA6B5F2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */; };
 		B9DA6B602E1197F700B2BDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */; };
 		B9DA6B632E11981800B2BDD0 /* ViewModifierFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */; };
+		B9FB10682E141D0100F034DA /* AnimateCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB10672E141CFB00F034DA /* AnimateCustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		B9DA6B5B2E1197F700B2BDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasterCourseApp.swift; sourceTree = "<group>"; };
 		B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierFile.swift; sourceTree = "<group>"; };
+		B9FB10672E141CFB00F034DA /* AnimateCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		B9DA6B5D2E1197F700B2BDD0 /* SwiftUIMasterCourse */ = {
 			isa = PBXGroup;
 			children = (
+				B9FB10672E141CFB00F034DA /* AnimateCustomShape.swift */,
 				B96F66E32E12FFD500452FE6 /* CustomCurves.swift */,
 				B96F66E12E12FC3400452FE6 /* CustomShape.swift */,
 				B94FA0532E1260DB00C1CC68 /* MatchedGeometryEffect.swift */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96F66E42E13000700452FE6 /* CustomCurves.swift in Sources */,
+				B9FB10682E141D0100F034DA /* AnimateCustomShape.swift in Sources */,
 				B9DA6B5E2E1197F700B2BDD0 /* ContentView.swift in Sources */,
 				B94FA0502E124B3100C1CC68 /* ButtonStyle.swift in Sources */,
 				B9DA6B632E11981800B2BDD0 /* ViewModifierFile.swift in Sources */,
