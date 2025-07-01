@@ -17,6 +17,7 @@
 		B9DA6B602E1197F700B2BDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */; };
 		B9DA6B632E11981800B2BDD0 /* ViewModifierFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */; };
 		B9FB10682E141D0100F034DA /* AnimateCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB10672E141CFB00F034DA /* AnimateCustomShape.swift */; };
+		B9FB106A2E14362400F034DA /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB10692E14362000F034DA /* Generics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasterCourseApp.swift; sourceTree = "<group>"; };
 		B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierFile.swift; sourceTree = "<group>"; };
 		B9FB10672E141CFB00F034DA /* AnimateCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCustomShape.swift; sourceTree = "<group>"; };
+		B9FB10692E14362000F034DA /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		B9DA6B5D2E1197F700B2BDD0 /* SwiftUIMasterCourse */ = {
 			isa = PBXGroup;
 			children = (
+				B9FB10692E14362000F034DA /* Generics.swift */,
 				B9FB10672E141CFB00F034DA /* AnimateCustomShape.swift */,
 				B96F66E32E12FFD500452FE6 /* CustomCurves.swift */,
 				B96F66E12E12FC3400452FE6 /* CustomShape.swift */,
@@ -164,6 +167,7 @@
 				B9DA6B632E11981800B2BDD0 /* ViewModifierFile.swift in Sources */,
 				B94FA0542E1260EA00C1CC68 /* MatchedGeometryEffect.swift in Sources */,
 				B9DA6B5F2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift in Sources */,
+				B9FB106A2E14362400F034DA /* Generics.swift in Sources */,
 				B96F66E22E12FC3F00452FE6 /* CustomShape.swift in Sources */,
 				B94FA0522E124E3C00C1CC68 /* CustomAnyTransition.swift in Sources */,
 			);

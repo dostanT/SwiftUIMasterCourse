@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIMasterCourseApp: App {
     var body: some Scene {
         WindowGroup {
-            AnimateCustomShape()
+            GenericsView()
         }
     }
 }
