@@ -13,6 +13,9 @@
 		B96F66E22E12FC3F00452FE6 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F66E12E12FC3400452FE6 /* CustomShape.swift */; };
 		B96F66E42E13000700452FE6 /* CustomCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F66E32E12FFD500452FE6 /* CustomCurves.swift */; };
 		B9AE1DA32E151708001987A8 /* ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE1DA22E1516FC001987A8 /* ViewBuilders.swift */; };
+		B9AE1DA52E1528DD001987A8 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE1DA42E1528D8001987A8 /* PreferenceKey.swift */; };
+		B9AE1DA72E154263001987A8 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE1DA62E154258001987A8 /* GeometryPreferenceKey.swift */; };
+		B9AE1DA92E154557001987A8 /* ScrollViewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE1DA82E154546001987A8 /* ScrollViewOffsetPreferenceKey.swift */; };
 		B9DA6B5E2E1197F700B2BDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B5B2E1197F700B2BDD0 /* ContentView.swift */; };
 		B9DA6B5F2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */; };
 		B9DA6B602E1197F700B2BDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 		B96F66E12E12FC3400452FE6 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		B96F66E32E12FFD500452FE6 /* CustomCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurves.swift; sourceTree = "<group>"; };
 		B9AE1DA22E1516FC001987A8 /* ViewBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilders.swift; sourceTree = "<group>"; };
+		B9AE1DA42E1528D8001987A8 /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		B9AE1DA62E154258001987A8 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
+		B9AE1DA82E154546001987A8 /* ScrollViewOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 		B9DA6B4C2E11971E00B2BDD0 /* SwiftUIMasterCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMasterCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DA6B5B2E1197F700B2BDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9AE1DAA2E15455B001987A8 /* Preferencekey */ = {
+			isa = PBXGroup;
+			children = (
+				B9AE1DA82E154546001987A8 /* ScrollViewOffsetPreferenceKey.swift */,
+				B9AE1DA62E154258001987A8 /* GeometryPreferenceKey.swift */,
+				B9AE1DA42E1528D8001987A8 /* PreferenceKey.swift */,
+			);
+			path = Preferencekey;
+			sourceTree = "<group>";
+		};
 		B9DA6B432E11971E00B2BDD0 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +83,7 @@
 		B9DA6B5D2E1197F700B2BDD0 /* SwiftUIMasterCourse */ = {
 			isa = PBXGroup;
 			children = (
+				B9AE1DAA2E15455B001987A8 /* Preferencekey */,
 				B9AE1DA22E1516FC001987A8 /* ViewBuilders.swift */,
 				B9FB10692E14362000F034DA /* Generics.swift */,
 				B9FB10672E141CFB00F034DA /* AnimateCustomShape.swift */,
@@ -168,10 +185,13 @@
 				B9AE1DA32E151708001987A8 /* ViewBuilders.swift in Sources */,
 				B9DA6B5E2E1197F700B2BDD0 /* ContentView.swift in Sources */,
 				B94FA0502E124B3100C1CC68 /* ButtonStyle.swift in Sources */,
+				B9AE1DA72E154263001987A8 /* GeometryPreferenceKey.swift in Sources */,
 				B9DA6B632E11981800B2BDD0 /* ViewModifierFile.swift in Sources */,
+				B9AE1DA52E1528DD001987A8 /* PreferenceKey.swift in Sources */,
 				B94FA0542E1260EA00C1CC68 /* MatchedGeometryEffect.swift in Sources */,
 				B9DA6B5F2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift in Sources */,
 				B9FB106A2E14362400F034DA /* Generics.swift in Sources */,
+				B9AE1DA92E154557001987A8 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 				B96F66E22E12FC3F00452FE6 /* CustomShape.swift in Sources */,
 				B94FA0522E124E3C00C1CC68 /* CustomAnyTransition.swift in Sources */,
 			);
