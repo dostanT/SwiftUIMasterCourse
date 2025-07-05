@@ -123,7 +123,7 @@ struct ViewBuildersView: View {
         VStack{
             HeaderViewRegular(title: "Title", description: "Description", iconName: "heart.fill")
             
-            HeaderViewGeneric(title: <#T##String#>) {
+            HeaderViewGeneric(title: "aef") {
                 Text("asdasd")
             } secondContent: {
                 Text("adfsdfsdf")

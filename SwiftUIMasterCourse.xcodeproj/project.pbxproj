@@ -25,6 +25,12 @@
 		B9DA6B5F2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */; };
 		B9DA6B602E1197F700B2BDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DA6B5A2E1197F700B2BDD0 /* Assets.xcassets */; };
 		B9DA6B632E11981800B2BDD0 /* ViewModifierFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */; };
+		B9E41CE32E184789004B4686 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E41CE02E184789004B4686 /* CustomNavLink.swift */; };
+		B9E41CE42E184789004B4686 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E41CDD2E184789004B4686 /* CustomNavView.swift */; };
+		B9E41CE52E184789004B4686 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E41CDF2E184789004B4686 /* CustomNavBarContainerView.swift */; };
+		B9E41CE62E184789004B4686 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E41CE12E184789004B4686 /* CustomNavBarPreferenceKeys.swift */; };
+		B9E41CE72E184789004B4686 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E41CDC2E184789004B4686 /* AppNavBarView.swift */; };
+		B9E41CE82E184789004B4686 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E41CDE2E184789004B4686 /* CustomNavBarView.swift */; };
 		B9FB10682E141D0100F034DA /* AnimateCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB10672E141CFB00F034DA /* AnimateCustomShape.swift */; };
 		B9FB106A2E14362400F034DA /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB10692E14362000F034DA /* Generics.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +55,12 @@
 		B9DA6B5B2E1197F700B2BDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9DA6B5C2E1197F700B2BDD0 /* SwiftUIMasterCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMasterCourseApp.swift; sourceTree = "<group>"; };
 		B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierFile.swift; sourceTree = "<group>"; };
+		B9E41CDC2E184789004B4686 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		B9E41CDD2E184789004B4686 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		B9E41CDE2E184789004B4686 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		B9E41CDF2E184789004B4686 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		B9E41CE02E184789004B4686 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		B9E41CE12E184789004B4686 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		B9FB10672E141CFB00F034DA /* AnimateCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCustomShape.swift; sourceTree = "<group>"; };
 		B9FB10692E14362000F034DA /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +117,7 @@
 		B9DA6B5D2E1197F700B2BDD0 /* SwiftUIMasterCourse */ = {
 			isa = PBXGroup;
 			children = (
+				B9E41CE22E184789004B4686 /* CustomNavBar */,
 				B9763EC12E165FCF00E85D71 /* CustomTabBar */,
 				B9AE1DAA2E15455B001987A8 /* Preferencekey */,
 				B9AE1DA22E1516FC001987A8 /* ViewBuilders.swift */,
@@ -129,6 +142,19 @@
 				B9DA6B622E11980E00B2BDD0 /* ViewModifierFile.swift */,
 			);
 			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		B9E41CE22E184789004B4686 /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				B9E41CDC2E184789004B4686 /* AppNavBarView.swift */,
+				B9E41CDD2E184789004B4686 /* CustomNavView.swift */,
+				B9E41CDE2E184789004B4686 /* CustomNavBarView.swift */,
+				B9E41CDF2E184789004B4686 /* CustomNavBarContainerView.swift */,
+				B9E41CE02E184789004B4686 /* CustomNavLink.swift */,
+				B9E41CE12E184789004B4686 /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +230,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96F66E42E13000700452FE6 /* CustomCurves.swift in Sources */,
+				B9E41CE32E184789004B4686 /* CustomNavLink.swift in Sources */,
+				B9E41CE42E184789004B4686 /* CustomNavView.swift in Sources */,
+				B9E41CE52E184789004B4686 /* CustomNavBarContainerView.swift in Sources */,
+				B9E41CE62E184789004B4686 /* CustomNavBarPreferenceKeys.swift in Sources */,
+				B9E41CE72E184789004B4686 /* AppNavBarView.swift in Sources */,
+				B9E41CE82E184789004B4686 /* CustomNavBarView.swift in Sources */,
 				B9FB10682E141D0100F034DA /* AnimateCustomShape.swift in Sources */,
 				B9AE1DA32E151708001987A8 /* ViewBuilders.swift in Sources */,
 				B9DA6B5E2E1197F700B2BDD0 /* ContentView.swift in Sources */,
