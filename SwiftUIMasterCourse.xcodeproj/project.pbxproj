@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92FF6392E19C16F00DA3935 /* UIViewRepresentamle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FF6382E19C16100DA3935 /* UIViewRepresentamle.swift */; };
 		B94FA0502E124B3100C1CC68 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FA04F2E124B2500C1CC68 /* ButtonStyle.swift */; };
 		B94FA0522E124E3C00C1CC68 /* CustomAnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FA0512E124E3300C1CC68 /* CustomAnyTransition.swift */; };
 		B94FA0542E1260EA00C1CC68 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FA0532E1260DB00C1CC68 /* MatchedGeometryEffect.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B92FF6382E19C16100DA3935 /* UIViewRepresentamle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentamle.swift; sourceTree = "<group>"; };
 		B94FA04F2E124B2500C1CC68 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		B94FA0512E124E3300C1CC68 /* CustomAnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnyTransition.swift; sourceTree = "<group>"; };
 		B94FA0532E1260DB00C1CC68 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		B9DA6B5D2E1197F700B2BDD0 /* SwiftUIMasterCourse */ = {
 			isa = PBXGroup;
 			children = (
+				B92FF6382E19C16100DA3935 /* UIViewRepresentamle.swift */,
 				B9E41CE22E184789004B4686 /* CustomNavBar */,
 				B9763EC12E165FCF00E85D71 /* CustomTabBar */,
 				B9AE1DAA2E15455B001987A8 /* Preferencekey */,
@@ -251,6 +254,7 @@
 				B9763EC52E165FCF00E85D71 /* AppTabBarView.swift in Sources */,
 				B9763EC62E165FCF00E85D71 /* TabBarItemsPreferenceKey.swift in Sources */,
 				B9FB106A2E14362400F034DA /* Generics.swift in Sources */,
+				B92FF6392E19C16F00DA3935 /* UIViewRepresentamle.swift in Sources */,
 				B9AE1DA92E154557001987A8 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 				B96F66E22E12FC3F00452FE6 /* CustomShape.swift in Sources */,
 				B94FA0522E124E3C00C1CC68 /* CustomAnyTransition.swift in Sources */,
