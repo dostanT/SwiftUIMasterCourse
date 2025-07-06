@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90571EC2E1A729200C9C305 /* UIViewControllerRepresetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90571EB2E1A729200C9C305 /* UIViewControllerRepresetable.swift */; };
 		B92FF6392E19C16F00DA3935 /* UIViewRepresentamle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FF6382E19C16100DA3935 /* UIViewRepresentamle.swift */; };
 		B94FA0502E124B3100C1CC68 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FA04F2E124B2500C1CC68 /* ButtonStyle.swift */; };
 		B94FA0522E124E3C00C1CC68 /* CustomAnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FA0512E124E3300C1CC68 /* CustomAnyTransition.swift */; };
@@ -18,6 +19,7 @@
 		B9763EC42E165FCF00E85D71 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9763EBD2E165FCF00E85D71 /* CustomTabBarView.swift */; };
 		B9763EC52E165FCF00E85D71 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9763EBC2E165FCF00E85D71 /* AppTabBarView.swift */; };
 		B9763EC62E165FCF00E85D71 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9763EBF2E165FCF00E85D71 /* TabBarItemsPreferenceKey.swift */; };
+		B99C90442E1AD54400C9ED78 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99C90432E1AD54400C9ED78 /* ProtocolsBootcamp.swift */; };
 		B9AE1DA32E151708001987A8 /* ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE1DA22E1516FC001987A8 /* ViewBuilders.swift */; };
 		B9AE1DA52E1528DD001987A8 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE1DA42E1528D8001987A8 /* PreferenceKey.swift */; };
 		B9AE1DA72E154263001987A8 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE1DA62E154258001987A8 /* GeometryPreferenceKey.swift */; };
@@ -37,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90571EB2E1A729200C9C305 /* UIViewControllerRepresetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresetable.swift; sourceTree = "<group>"; };
 		B92FF6382E19C16100DA3935 /* UIViewRepresentamle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentamle.swift; sourceTree = "<group>"; };
 		B94FA04F2E124B2500C1CC68 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		B94FA0512E124E3300C1CC68 /* CustomAnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnyTransition.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		B9763EBE2E165FCF00E85D71 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		B9763EBF2E165FCF00E85D71 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		B9763EC02E165FCF00E85D71 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		B99C90432E1AD54400C9ED78 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		B9AE1DA22E1516FC001987A8 /* ViewBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilders.swift; sourceTree = "<group>"; };
 		B9AE1DA42E1528D8001987A8 /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
 		B9AE1DA62E154258001987A8 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 		B9DA6B5D2E1197F700B2BDD0 /* SwiftUIMasterCourse */ = {
 			isa = PBXGroup;
 			children = (
+				B99C90432E1AD54400C9ED78 /* ProtocolsBootcamp.swift */,
+				B90571EB2E1A729200C9C305 /* UIViewControllerRepresetable.swift */,
 				B92FF6382E19C16100DA3935 /* UIViewRepresentamle.swift */,
 				B9E41CE22E184789004B4686 /* CustomNavBar */,
 				B9763EC12E165FCF00E85D71 /* CustomTabBar */,
@@ -236,6 +242,8 @@
 				B9E41CE32E184789004B4686 /* CustomNavLink.swift in Sources */,
 				B9E41CE42E184789004B4686 /* CustomNavView.swift in Sources */,
 				B9E41CE52E184789004B4686 /* CustomNavBarContainerView.swift in Sources */,
+				B99C90442E1AD54400C9ED78 /* ProtocolsBootcamp.swift in Sources */,
+				B90571EC2E1A729200C9C305 /* UIViewControllerRepresetable.swift in Sources */,
 				B9E41CE62E184789004B4686 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				B9E41CE72E184789004B4686 /* AppNavBarView.swift in Sources */,
 				B9E41CE82E184789004B4686 /* CustomNavBarView.swift in Sources */,
